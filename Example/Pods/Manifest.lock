@@ -1,0 +1,35 @@
+PODS:
+  - Masonry (1.1.0)
+  - XNBaseController (0.1.0):
+    - Masonry
+    - XNBaseUI
+    - XNThemeManager
+  - XNBaseUI (0.1.1):
+    - XNBaseUtils
+  - XNBaseUtils (0.1.1)
+  - XNThemeManager (0.1.1)
+
+DEPENDENCIES:
+  - XNBaseController (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - XNBaseUI
+    - XNBaseUtils
+    - XNThemeManager
+
+EXTERNAL SOURCES:
+  XNBaseController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XNBaseController: bfef5bc24b64b1a559ca26da58e44e0fbff1268c
+  XNBaseUI: da875f04874938cb5d55e6ea83e422382bafd648
+  XNBaseUtils: 76ad23ae6765bdea4b966dc863045e701a5219bb
+  XNThemeManager: 68bf32482a6d25a9699aa2b4b8abe2cdbfa1b3e1
+
+PODFILE CHECKSUM: b2c9970e07c527c11c5ed2df15c600effe743442
+
+COCOAPODS: 1.8.4
